@@ -1,5 +1,36 @@
+ @import url("fonts.googleapis.com/css?family=Merriweather");
+ 
  body {
     margin: 50px;
-    font-family: Helvetica, sans-serif;
+    font-family: Merriweather;
     font-size: 150%;
+    background-color: lavender;
+    text-align: center;
+}
+
+button {
+    background-color: lightslategray;
+    color: white;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    font-size: 20px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+button:hover {
+    cursor:pointer;
+    opacity:1;
+    font-size: 22px;
+}
+
+input {
+    padding: 7px;
+    margin:5px;
+    border-radius:10px;
+    border: solid lightslategray;
+}
+input:focus {
+    border: solid black;
 }
