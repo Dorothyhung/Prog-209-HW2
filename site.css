@@ -4,13 +4,14 @@
     margin: 50px;
     font-family: Merriweather;
     font-size: 150%;
+    color:darkslategrey;
     background-color: lavender;
     text-align: center;
 }
 
 button {
     background-color: lightslategray;
-    color: white;
+    color: lavender;
     border:none;
     border-radius:10px;
     padding:10px;
