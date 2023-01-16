@@ -32,6 +32,14 @@ input {
     border-radius:10px;
     border: solid lightslategray;
 }
+
 input:focus {
     border: solid black;
+}
+
+#copy {
+    position: relative;
+    top: 0;
+    right: 0ps;
+
 }
