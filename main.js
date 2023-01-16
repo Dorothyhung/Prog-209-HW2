@@ -15,3 +15,7 @@ function copyText() {
     navigator.clipboard.writeText(result.value);
     document.getElementById("textbox1").style.backgroundColor="lightgreen";
 }
+
+function refresh() {
+    location.reload();
+}

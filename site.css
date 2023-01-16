@@ -41,5 +41,6 @@ input:focus {
     position: relative;
     top: 0;
     right: 0ps;
+    font-size: 15px;
 
 }
